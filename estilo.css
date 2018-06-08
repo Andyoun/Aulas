@@ -3,6 +3,7 @@ body {
     margin: 60px auto 0;
     font-family: sans-serif;
     line-height: 1.5;
+    height: 800vh;
 }
 
 h2 {
@@ -98,3 +99,12 @@ li a:hover{
     background-color: #7518f3;
 }
 
+img {
+    border: red 3px solid;
+    position: absolute;
+    top: 70px;
+}
+
+article {
+    position: relative;
+}
