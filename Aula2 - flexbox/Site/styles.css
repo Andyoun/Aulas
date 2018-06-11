@@ -3,6 +3,13 @@ body{
     font-family: sans-serif;
 }
 
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+
 header{
     overflow: auto;
     background-color: green;
@@ -10,6 +17,7 @@ header{
     align-items: center;
     align-content: center;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 header h1{
@@ -37,7 +45,8 @@ header img{
 }
 
 .principal{
-    width: 1248;
+    width: 1024;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -55,6 +64,10 @@ header img{
 
 .principal .destaque img{
     width: 100%;
+}
+
+.destaque .produto{
+    font-weight: bold;
 }
 
 @media(min-width: 768px){
