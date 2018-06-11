@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+header{
+    overflow: auto;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+header h1{
+    color: white;
+}
+
+header div{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+header input {
+    height: 30px;
+    border: 0;
+    width: 250px;
+    border-radius: 10px;
+    display: none;
+}
+
+header img{
+    width: 30px;
+}
+
+@media(min-width: 768px){
+    header input{
+        display: block;
+    }
+    header img {
+        margin-left: -39px;
+    }
+}
+
