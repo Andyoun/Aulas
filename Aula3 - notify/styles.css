@@ -63,12 +63,20 @@ body{
     height: 283px;
     max-width: 100%;
     margin: auto;
+    margin-top: 6px;
     display: flex;
     align-items: center;
 }
 
 .colunaIcone{
     text-align: center;
+}
+
+.colunaIcone p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.61);
+    line-height: 25px;
+    
 }
 
 .colunaIcone img{
@@ -78,6 +86,7 @@ body{
 
 .titulo2{
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
 }
 
 
@@ -103,6 +112,50 @@ body{
     background-color: rgb(83, 198, 94);
     border-radius: 100%;
     padding: 18px;
+}
+
+.quadro3{
+    background-color: rgba(128, 128, 128, 0.274);
+}
+
+.container2{
+    width: 1008px;
+    height: 357px;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.bloco1{
+    width: 461px;
+    margin-top: 21px;
+    margin-left: 11px;
+}
+
+.bloco1 p{
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.61);
+    line-height: 22px;
+}
+
+.bloco1 > h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+
+input{
+    margin-top: 19px;
+}
+
+#caixaDeTexto input{
+    width: 261px;
+    height: 47px;
+}
+bloco2{
+    height: 429px;
+    width: 271px;
+    background-color: rebeccapurple;
 }
 
 
