@@ -48,3 +48,6 @@ console.log("------------");
 for(let atributo in cliente){
     console.log(`O atributo ${atributo} tem o valor ${cliente[atributo]}`)
 }
+
+// jeitos melhores de escrever porque simplificam e tornam mais legiveis. 
+// for it. Para um cara orientado  a objeto e ele le um for it não é um fluxo normal de trabalho. Para quem esta aprendendo ignorar isso. 
