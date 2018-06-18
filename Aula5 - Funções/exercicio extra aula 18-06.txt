@@ -1,0 +1,7 @@
+exercicio extra. 
+
+ao ternimar um exercicio feito com while, verifique se ele pode ser substituido por um for (tradicional, in ou off), se sim faça o exercicio novamente usando o for correto.
+
+transforme pelo menos dois dos seus exercicios em funções. 
+
+
